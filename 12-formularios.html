@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <h1>Formularios HTML</h1>
+
+    <form>
+      <label for="Nombres:">Nombres</label><br />
+      <input
+        type="text"
+        id="nombres"
+        name="nombres"
+        size="60px"
+        placeholder="ingrese los nombres"
+        required
+        tabindex="1"
+      />
+
+      <br /><br />
+      <label for="Apellidos">Apellidos</label><br />
+      <input
+        type="text"
+        id="Apellidos"
+        name="Apellidos"
+        size="60px"
+        placeholder="ingrese los apellidos"
+        required
+        tabindex="2"
+      />
+      <br /><br />
+
+      <label for="Email">Email</label><br />
+      <input
+        type="email"
+        id="correo"
+        name="correo"
+        size="60px"
+        placeholder="ingrese el email"
+        required
+        tabindex="3"
+      />
+      <br /><br />
+      <!--<input type="submit" value="Guardar" />-->
+      <button type="submit" tabindex="4">Guardar</button>
+      <button type="reset" tabindex="5">Cancelar</button>
+    </form>
+  </body>
+</html>
